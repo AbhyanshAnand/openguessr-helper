@@ -1,4 +1,4 @@
-# Guessr Pin Coordinates
+# Openguessr Helper
 
 A lightweight, browser-based coordinate tool for Guessr-style map games. It adds a small floating interface that lets you enter geographic coordinates and reposition the existing player pin on the map.
 
@@ -65,7 +65,7 @@ You can run either version directly from the browser's Developer Tools console w
 **Toggle-button version:**
 
 ```js
-fetch('https://raw.githubusercontent.com/USERNAME/REPOSITORY/BRANCH/guessr-pin-toggle.js')
+fetch('https://raw.githubusercontent.com/AbhyanshAnand/openguessr-helper/main/toggle.js')
   .then(response => {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     return response.text();
@@ -77,7 +77,7 @@ fetch('https://raw.githubusercontent.com/USERNAME/REPOSITORY/BRANCH/guessr-pin-t
 **Keyboard-shortcut version:**
 
 ```js
-fetch('https://raw.githubusercontent.com/USERNAME/REPOSITORY/BRANCH/guessr-pin-shortcut.js')
+fetch('https://raw.githubusercontent.com/AbhyanshAnand/openguessr-helper/main/keybind.js')
   .then(response => {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     return response.text();
