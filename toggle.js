@@ -25,7 +25,7 @@
 
 function printUsageInstructions(version) {
     console.info(
-        `%cGuessr Pin Coordinates — ${version}`,
+        `%cOpenguessr Helper — ${version}`,
         "font-weight:bold;font-size:14px;color:#8bbcff"
     );
 

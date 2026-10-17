@@ -86,8 +86,6 @@ fetch('https://raw.githubusercontent.com/AbhyanshAnand/openguessr-helper/main/ke
   .catch(error => console.error('Failed to load Guessr Pin Coordinates:', error));
 ```
 
-Replace `USERNAME`, `REPOSITORY`, `BRANCH`, and the filenames with the actual values from your GitHub repository.
-
 Only run code from a source you trust. Fetching JavaScript and evaluating it executes that code with the privileges of the current page.
 
 ### Allowing Pasting in the Developer Console
